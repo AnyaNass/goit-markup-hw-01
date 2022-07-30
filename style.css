@@ -1,0 +1,48 @@
+.menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(17, 21, 24, 0.9);
+	padding: 30px 20px 20px;
+}
+
+.menu__head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu__list {
+	margin: 49px 0 0;
+	list-style: none;
+	padding: 0;
+}
+
+.menu__item a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: calc(36 / 20);
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+}
+
+.button {
+	display: block;
+	margin: 50px auto 0 auto;
+	width: 260px;
+	height: 48px;
+	background-color: transparent;
+	border: 1px solid orange;
+	padding: 17px 0;
+	color: orange;
+}
+
+@media (min-width: 480px) {
+	.button {
+		display: none;
+	}
+}
